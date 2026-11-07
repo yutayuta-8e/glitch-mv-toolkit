@@ -1,0 +1,12 @@
+glitch-mv-toolkit
+
+Scope: this license covers the source code and documentation in this
+repository (*.py, *.sh, *.md, requirements.txt, .gitignore, and the files under
+.claude/). It does NOT cover the media: the images under media/images/ and the
+release assets (cut videos, audio, and the finished video). All rights to the
+media, including the character, are reserved by the author. Third-party
+components keep their own licenses (e.g. Salamander Grand Piano V3, CC BY 3.0).
+
+日本語：MIT License（LICENSE）の対象は、このリポジトリのコードと文書だけ。
+media/images/ の画像と、リリースのカット・音・完成版の動画は対象外で、キャラクターを含めすべての権利は作者（yutayuta-8e）が持つ。
+第三者の部品はそれぞれのライセンスに従う（例：Salamander Grand Piano V3 は CC BY 3.0）。

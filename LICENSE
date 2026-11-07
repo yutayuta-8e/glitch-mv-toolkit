@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Scope: this license covers the source code and documentation in this
-repository (*.py, *.sh, *.md, requirements.txt, .gitignore, and the files under
-.claude/). It does NOT cover the media: the images under media/images/ and the
-release assets (cut videos, audio, and the finished video). All rights to the
-media, including the character, are reserved by the author. Third-party
-components keep their own licenses (e.g. Salamander Grand Piano V3, CC BY 3.0).
