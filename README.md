@@ -2,6 +2,8 @@
 
 生成 AI のカットと曲から、フラッシュ注意レベルのグリッチ／サイケ MV を FFmpeg と Python だけで組み立てるためのスクリプト集。音は Suno の曲を土台に、ブレイクコアを合成して作る。作例は「ゆた×目／見てるよ」（約 106 秒、21:9、24fps、1920×816 と 3840×1632）。
 
+このリポジトリで作った作品（X の投稿、『yuta - breakcore 2』）：https://x.com/yutayuta_8e/status/2118912644711342303
+
 読み手は Claude Code などの AI エージェントを想定している。全体の手順と値は [docs/HOWTO-glitch-mv.md](docs/HOWTO-glitch-mv.md)、作業のときの進め方は Claude Code のスキル [.claude/skills/glitch-mv-scripted-edit/](.claude/skills/glitch-mv-scripted-edit/SKILL.md) にある。このリポジトリを開いた Claude Code は、スキルを自動で読み込む。
 
 ## 中身
