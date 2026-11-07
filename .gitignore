@@ -1,0 +1,24 @@
+# 作業ファイルと素材は入れない（フォント・曲・生成した映像は配布の規約や容量のため）
+_work/
+fonts/
+fonts_fable/
+video/fable_render/fonts2/
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.ttf
+*.otf
+*.ttc
+*.sfz
+*.log
+x2pass*
