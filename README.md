@@ -27,10 +27,20 @@ examples/build_example.sh      素材 → カット → 文字 → スパート 
 - Python 3.12 と `pip install -r requirements.txt`（Pillow、NumPy、SciPy、pedalboard）
 - 動作確認は Windows 11（Git Bash）。シェルスクリプトは bash、Python は `python -I` で動かす前提
 
+## 作例の素材
+
+最終版に実際に使った素材と、完成版（X 投稿用の 4K）を置いてある。
+
+- 画像：`media/images/`（世界観の基準 `MOOD-02_1`、サムネの元画像、サムネの完成版）
+- カット（40 本、約 1.2GB）と音（最終ミックス・stems・作り直しに要る素材、13 ファイル、約 210MB）：[リリース media-v1](https://github.com/yutayuta-8e/glitch-mv-toolkit/releases/tag/media-v1) の ZIP。容量が大きいので Git ではなくリリースに置いた。SHA-256 は同じリリースの `SHA256SUMS.txt`
+- 完成版：同じリリースの `miteruyo_v7_X_4k.mp4`（3840×1632、105.83 秒、H.264 75Mbps、約 995MB）。元の 4K 本番（約 5.4GB）は 1 ファイル 2GB の上限を超えるので置いていない
+- クレジット：映像と画像は TapNow で生成（MiniMax H3、Midjourney）、キャラクターは作者のもの。曲は Suno（作者が有料プランで生成）。ピアノは `Piano: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0)`
+- 映像には激しい点滅が多く含まれる
+
 ## 入っていないもの（自分で用意する）
 
 - **フォント**：配布の規約上、このリポジトリには入れていない。作例は「いいフォント」掲載の OFL などの書体（破裂ノ明朝、でごぼゴシック、したたる明朝、侵食明朝、フィーリングオブフィア、ダストデビル、幻ノにじみ明朝、カキナグリ、暗黒ゾン字、怨霊フォント、黒薔薇シンデレラ、g_コミックホラー、激筆SFX、クロヌリ）と、Google Fonts の Dela Gothic One・DotGothic16・Zen Maru Gothic。書体ごとのサブフォルダに入れて、`--fonts` か環境変数で場所を渡す
-- **曲・映像・画像**：Suno の曲、生成 AI のクリップ、カット、作品の完成版は入れていない
+- **自分の作品の素材**：作例以外の曲・映像は、自分で用意する
 - **ピアノの音源**：Salamander Grand Piano V3（CC BY 3.0）の SFZ とサンプルは、配布元から取ってくる。使ったらクレジットを書く
 
 ## 環境変数
