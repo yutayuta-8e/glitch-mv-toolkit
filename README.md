@@ -84,7 +84,8 @@ bash tools/export_for_x.sh out.mp4 x_out all
 
 ## 権利
 
-- コード：作者（GitHub の yutayuta-8e）のもの。ライセンスはまだ付けていない。再利用の範囲は作者に確認すること
+- コードと文書（`*.py`、`*.sh`、`*.md`、`.claude/` など）：[MIT License](LICENSE)
+- 素材（`media/images/` の画像、リリースのカット・音・完成版の動画）：MIT の対象外。キャラクターを含め、すべての権利は作者（yutayuta-8e）が持つ。使いたいときは作者に確認すること
 - フォント：多くは「フォントのファイルの再配布・販売」だけを禁止している。文字を描き込んだ動画の加工・拡大は問題ない。書体ごとに同梱の規約を読む
 - Suno の曲を商用に使う条件は、有料プランでの生成と公式ダウンロード
 - Salamander Grand Piano V3 は CC BY 3.0（`Piano: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0)`）
