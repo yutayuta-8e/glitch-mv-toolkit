@@ -22,3 +22,7 @@ __pycache__/
 *.sfz
 *.log
 x2pass*
+
+# 作品の画像（世界観の基準・サムネ）は入れる
+!media/images/
+!media/images/*.png
